@@ -74,6 +74,8 @@ Mills 概念的真正关键是"从个人艺术到公共实践"的编程观念转
 
 另外，团队中剩余人员职能的专业化分工是高效的关键，它使成员之间采用非常简单的交流模式成为可能。
 
+![图3.1：10 人程序开发队伍的沟通模式](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch3/图3.1：10 人程序开发队伍的沟通模式.png)
+
 <Figures figure="3-1">10 人程序开发队伍的沟通模式</Figures>
 
 Baker 的文章提出了专一的、小规模的测试队伍。在那种情况下，它能按照所预期的进行运作，并具有良好的效果。

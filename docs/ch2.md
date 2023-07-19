@@ -50,19 +50,27 @@ Good cooking takes time. If you are made to wait, it is to serve you better, and
 
 人数和时间的互换仅仅适用于以下情况：某个任务可以分解给参与人员，并且他们之间不需要相互的交流（图 2.1）。这在割小麦或收获棉花的工作中是可行的；而在系统编程中近乎不可能。
 
+![图2.1：人员和时间之间的关系——完全可以分解的任务](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.1：人员和时间之间的关系——完全可以分解的任务.png)
+
 <Figures figure="2-1">人员和时间之间的关系——完全可以分解的任务</Figures>
 
 当任务由于次序上的限制不能分解时，人手的添加对进度没有帮助（图 2.2）。无论多少个母亲，孕育一个生命都需要十个月。由于调试、测试的次序特性，许多软件都具有这种特征，
 
+![图2.2：人员和时间之间的关系——无法分解的任务](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.2：人员和时间之间的关系——无法分解的任务.png)
+
 <Figures figure="2-2">人员和时间之间的关系——无法分解的任务</Figures>
 
 对于可以分解，但子任务之间需要相互沟通和交流的任务，必须在计划工作中考虑沟通的工作量。因此，相同人月的前提下，采用增加人手来减少时间得到的最好情况，也比未调整前要差一些（图 2.3）。
+
+![图2.3：人员和时间之间的关系——需要沟通的可分解任务](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.3：人员和时间之间的关系——需要沟通的可分解任务.png)
 
 <Figures figure="2-3">人员和时间之间的关系——需要沟通的可分解任务</Figures>
 
 沟通所增加的负担由两个部分组成，培训和相互的交流。每个成员需要进行技术、项目目标以及总体策略上的培训。这种培训不能分解，因此这部分增加的工作量随人员的数量呈线性变化。
 
 相互之间交流的情况更糟一些。如果任务的每个部分必须分别和其他部分单独协作，则工作量按照 n(n-1)/2 递增。一对一交流的情况下，三个人的工作量是两个人的三倍，四个人则是两个人的六倍。而对于需要在三四个人之间召开会议、进行协商、一同解决的问题，情况会更加恶劣。所增加的用于沟通的工作量可能会完全抵消对原有任务分解所产生的作用，此时我们会被带到图 2.4 的境地。
+
+![图2.4：人员和时间之间的关系——关系错综复杂的任务](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.4：人员和时间之间的关系——关系错综复杂的任务.png)
 
 <Figures figure="2-4">人员和时间之间的关系——关系错综复杂的任务</Figures>
 
@@ -118,11 +126,19 @@ Good cooking takes time. If you are made to wait, it is to serve you better, and
 3. 重新安排进度。我喜欢 P.Fagg，一个具有丰富经验的硬件工程师的忠告："避免小的偏差（Take no small slips）"。也就是说，在新的进度安排中分配充分的时间，以确保工作能仔细、彻底地完成，从而无需重新确定时间进度表。
 4. 削减任务。在现实情况中，一旦开发团队观察到进度的偏差，总是倾向于对任务进行削减。当项目延期所导致的后续成本非常高时，这常常是唯一可行的方法。项目经理的相应措施是仔细、正式地调整项目，重新安排进度；或者是默默地注视着任务项由于轻率的设计和不完整的测试而被剪除。
 
+![图2.5](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.5.png)
+
 <Figures figure="2-5"></Figures>
+
+![图2.6](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.6.png)
 
 <Figures figure="2-6"></Figures>
 
+![图2.7](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.7.png)
+
 <Figures figure="2-7"></Figures>
+
+![图2.8](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch2/图2.8.png)
 
 <Figures figure="2-8"></Figures>
 

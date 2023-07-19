@@ -34,6 +34,8 @@ Weinwurm 的 SDC 研究报告同样显示出指数接近于 1.5。
 
 现在已经有了一些关于编程人员生产率的研究，提出了很多估计的技术。 Morin 对所发布的数据进行了一些调查研究。这里仅仅给出了若干特别突出的条目。
 
+![图8.1：编程工作量是程序规模的函数](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch8/图8.1：编程工作量是程序规模的函数.png)
+
 <Figures figure="8-1">编程工作量是程序规模的函数</Figures>
 
 注释: incomplete－未终结的
@@ -66,9 +68,15 @@ John Harr，Bell 电话实验室电子交换系统领域的编程经理，在 19
 
 图 8.3 和 8.4 显示了一些有趣的数据，将实际的编程速度、调试速度与预期做了对比。
 
+![图8.2：4 个NO.1 的ESS 编程工作总结](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch8/图8.2：4 个NO.1 的ESS 编程工作总结.png)
+
 <Figures figure="8-2"></Figures>
 
+![图8.3：ESS 预计和实际的编程速度](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch8/图8.3：ESS 预计和实际的编程速度.png)
+
 <Figures figure="8-3"></Figures>
+
+![图8.4：ESS 预计和实际的调试速度](/Users/zdd/Library/Mobile Documents/com~apple~CloudDocs/GitHub/The-Mythical-Man-Month-zh/images/ch8/图8.4：ESS 预计和实际的调试速度.png)
 
 ## OS/360 的数据
 
