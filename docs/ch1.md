@@ -18,10 +18,12 @@ Een schip op het strand is een baken in zee.
 
 为什么不是所有的产业化队伍都会被这种专注的二人组合所替代？我们必须看一下产出的是什么。
 
-<div style="inline">
-  <img src="../images/ch1/图1.1：编程系统产品的演进.png" width="300px" height="280px" />
+<div style="inline", align="center">
+  <img src="../images/ch1/图1.1：编程系统产品的演进.png"/>
 </div>
-图1.1：编程系统产品的演进.png
+<h5 style = "text-align:center;">
+  图1.1：编程系统产品的演进
+</h5>
 
 在图 1.1 的左上部分是程序（Program）。它本身是完整的，可以由作者在所开发的系统平台上运行。它通常是车库中产出的产品，以及作为单个程序员生产率的评估标准。
 
