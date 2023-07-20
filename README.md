@@ -2,8 +2,6 @@
 
 《人月神话》中文翻译
 
-在线阅读：[http://gdut_yy.gitee.io/doc-tmmm/](http://gdut_yy.gitee.io/doc-tmmm/)
-
 <div style="inline">
   <img src="./docs/cover.jpg" width="210px" height="280px" />
 </div>
@@ -32,23 +30,9 @@
 
 ## 本地开发 & 阅读
 
-本项目基于 vuepress 进行开发，以提供比 github markdown 更佳的阅读体验
+本项目原版基于 vuepress 进行开发，依赖于 `node.js`、`yarn`、`vuepress` 等环境
 
-依赖于 `node.js`、`yarn`、`vuepress` 等环境
-
-```sh
-# vuepress
-yarn global add vuepress
-
-# 本地开发
-git clone https://github.com/gdut-yy/The-Mythical-Man-Month-zh.git
-cd The-Mythical-Man-Month-zh/
-yarn docs:dev
-```
-
-## 更多书籍
-
-[https://github.com/xx-zh/xx-zh-roadmap](https://github.com/xx-zh/xx-zh-roadmap)
+现增加插图并调整格式使其更适合本地markdown阅读器阅读
 
 ## License
 
